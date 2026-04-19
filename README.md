@@ -1,5 +1,8 @@
 # Speech Pipeline
 
+Speech Understanding Assignment 2
+Author: Vivek Sapkal (B22AI066)
+
 This project implements a modular end-to-end speech processing pipeline for Hinglish lecture audio:
 
 - DeepFilterNet-based denoising with a safe spectral fallback
