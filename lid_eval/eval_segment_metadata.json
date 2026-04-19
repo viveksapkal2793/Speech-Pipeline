@@ -1,0 +1,8 @@
+{
+  "source_audio": "D:\\Acads\\8th Semester\\SU\\Assignmen_2\\raw_data\\lecture.wav",
+  "segment_audio": "D:\\Acads\\8th Semester\\SU\\Assignmen_2\\lid_eval\\eval_segment.wav",
+  "segment_start_sec": 8400.0,
+  "segment_duration_sec": 600.0,
+  "preprocess_dir": "D:\\Acads\\8th Semester\\SU\\Assignmen_2\\lid_eval\\lid_prep",
+  "manifest_path": "D:\\Acads\\8th Semester\\SU\\Assignmen_2\\lid_eval\\lid_prep\\lid_manifest.csv"
+}

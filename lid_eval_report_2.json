@@ -1,0 +1,21 @@
+{
+  "frame": {
+    "accuracy": 0.9201524028022451,
+    "precision_en": 0.43784639746634996,
+    "recall_en": 0.30859375,
+    "f1_en": 0.3620294599018003,
+    "precision_hi": 0.9464702324375702,
+    "recall_hi": 0.9686076844851218,
+    "f1_hi": 0.9574110088936476,
+    "macro_f1": 0.659720234397724,
+    "num_frames": 24409
+  },
+  "switch": {
+    "switch_within_200ms": 0.0,
+    "switch_precision": 0.0,
+    "switch_recall": 0.0,
+    "switch_f1": 0.0,
+    "switch_mae_ms": null,
+    "num_segments": 20
+  }
+}

@@ -1,0 +1,18 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+librosa>=0.10
+soundfile>=0.12
+tqdm>=4.66
+torch>=2.1
+openai-whisper>=20231117
+epitran>=1.24
+resemblyzer>=0.1.4
+TTS>=0.22.0
+transformers>=4.41
+sentencepiece>=0.2.0
+
+# Optional extras for the exact requested stack:
+# deepfilternet
+# indictrans2
+

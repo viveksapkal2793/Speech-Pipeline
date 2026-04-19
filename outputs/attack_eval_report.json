@@ -1,0 +1,8 @@
+{
+  "attack": {
+    "min_epsilon_mean": 0.0003914098478618422,
+    "min_epsilon_median": 0.00041242675781250017,
+    "snr_db_mean": 44.499222892969236,
+    "num_samples": 20
+  }
+}

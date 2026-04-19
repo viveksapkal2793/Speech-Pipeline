@@ -1,0 +1,18 @@
+{
+  "denoised_audio": "D:\\Acads\\8th Semester\\SU\\Assignmen_2\\outputs\\run1\\clean.wav",
+  "transcript": "",
+  "transcript_raw": "",
+  "transcript_chunks": [],
+  "ipa": "",
+  "translated_text": "",
+  "translated_chunks": [],
+  "translation_backend": "unknown",
+  "reference_text": "",
+  "tts_backend": "parler",
+  "num_tts_chunks": 41,
+  "speaker_embedding_shape": [],
+  "synthesized_audio": "D:\\Acads\\8th Semester\\SU\\Assignmen_2\\outputs\\run1\\synth.wav",
+  "prosody_matched_audio": "D:\\Acads\\8th Semester\\SU\\Assignmen_2\\outputs\\run1\\prosody_matched.wav",
+  "lid": null,
+  "spoof": null
+}

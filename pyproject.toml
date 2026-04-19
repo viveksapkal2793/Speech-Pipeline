@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speech-pipeline"
+version = "0.1.0"
+description = "Modular Hinglish speech processing pipeline with denoising, LID, ASR, G2P, translation, voice cloning, prosody transfer, spoof detection, and adversarial attacks."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "pandas>=2.0",
+  "librosa>=0.10",
+  "soundfile>=0.12",
+  "tqdm>=4.66",
+  "torch>=2.1",
+  "openai-whisper>=20231117",
+  "epitran>=1.24",
+  "resemblyzer>=0.1.4",
+  "TTS>=0.22.0",
+  "transformers>=4.41",
+  "sentencepiece>=0.2.0",
+]
+
+[project.optional-dependencies]
+full = [
+  "deepfilternet",
+  "indictrans2",
+]
+
+[project.scripts]
+speech-pipeline = "speech_pipeline.pipeline:main"
+lid-train = "speech_pipeline.lid.train:main"
+antispoof-train = "speech_pipeline.antispoof.train:main"
+speech-evaluate = "speech_pipeline.evaluate:main"
+lid-preprocess = "speech_pipeline.lid.preprocess:main"
+lid-fill-timestamps = "speech_pipeline.lid.fill_timestamps:main"
+lid-prepare-eval = "speech_pipeline.lid.prepare_eval_segment:main"
+lid-evaluate = "speech_pipeline.lid.evaluate:main"
+asr-build-corpus = "speech_pipeline.asr.build_corpus:main"
+
+[tool.setuptools.packages.find]
+include = ["speech_pipeline*"]

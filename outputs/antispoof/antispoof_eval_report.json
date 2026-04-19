@@ -1,0 +1,23 @@
+{
+  "spoof": {
+    "eer": 0.0,
+    "eer_threshold": 0.9979934692382812,
+    "auc_roc": 1.0,
+    "threshold": 0.5,
+    "accuracy_at_0_5": 1.0,
+    "precision_at_0_5": 1.0,
+    "recall_at_0_5": 1.0,
+    "f1_at_0_5": 1.0,
+    "fpr_at_0_5": 0.0,
+    "fnr_at_0_5": 0.0,
+    "apcer_at_0_5": 0.0,
+    "bpcer_at_0_5": 0.0,
+    "tp": 40,
+    "fp": 0,
+    "tn": 24,
+    "fn": 0,
+    "num_bona_fide": 24,
+    "num_spoof": 40,
+    "num_samples": 64
+  }
+}
